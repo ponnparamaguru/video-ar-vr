@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Video</title>
-        <meta name="apple-mobile-web-app-capable content="yes"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
         <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
         <script>
             AFRAME.registerComponent('hide-in-ar-mode', {
@@ -23,7 +23,7 @@
     </head>
     <body>
         <a-scene>
-            <a-assets timeout="10000">
+            <a-assets timeout="30000">
                 <video id="vid" src="video/cutecat.mp4" autoplay loop ="true" 
                 webkit-playinline></video>
             </a-assets>
